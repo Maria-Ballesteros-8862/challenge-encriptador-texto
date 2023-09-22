@@ -9,8 +9,10 @@
 </head>
 
 <body>
-    <div class="container">
+    <div>
+    <!--Contenedor que es en la parte de encriptar-->
         <div class="encriptar">
+    <!--Test area: donde se va ingresar el texto-->
             <textarea name="texto" class="texto" clid="texto" cols="30" rows="10" placeholder="Ingresa texto aqui"></textarea>
         <div class="terminos">
             <p>Solo letras minúsculas y sin acento</p>
@@ -22,17 +24,16 @@
             </button>
             <input type="button" class="btn-desencriptar" value="Desencriptar" onclick="desencriptar()"/>
         </div>
+
         <div class="encriptado">
             <img src="" alt="" id="Dibujo">
-            <div class="mensaje encriptado" id="mensaje">
+            <div class="mensaje-encriptado" id="mensaje">
                 <h2 id="titulo-mensaje">Ningún Mensaje se encontro</h2>
                 <p>Ingresa el texto que deseas encriptar o desencriptar</p>
-                <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="Mensaje"></textarea>
+                <!-- <textarea name="mensaje" id="mensaje" cols="30" rows="20" class="Mensaje"></textarea> -->
             </div>
-
-
-        
             <script src="JS/index.js"> </script>
+            </div>
         </div>
     </body>
 </html>
