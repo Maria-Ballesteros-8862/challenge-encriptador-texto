@@ -162,3 +162,17 @@ body {
     color: #495057;
     text-align: center;
 }
+
+.encriptado img{
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    top: 15%;
+}
+
+/*Reponsive*/
+
+@media screen and (max-width: 600px){
+    
+}
+
