@@ -62,6 +62,26 @@ body {
 
 }
 
+.encriptado{
+    display: flex;
+    justify-content:center;
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    left: 60%;
+    top: 5%;
+    background: #fff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.encriptado img{
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    top: 15%;
+}
+
 .button{
     display: flex;
     flex-direction: row;
@@ -115,19 +135,6 @@ body {
     padding: 1.8%;
 }
 
-.encriptado{
-    display: flex;
-    justify-content:center;
-    position: absolute;
-    width: 30%;
-    height: 90%;
-    left: 60%;
-    top: 5%;
-    background: #fff;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 32px;
-}
-
 .mensaje-encriptado{
     display: flex;
     flex-direction: column;
@@ -163,16 +170,9 @@ body {
     text-align: center;
 }
 
-.encriptado img{
-    position: absolute;
-    width: 80%;
-    height: 50%;
-    top: 15%;
-}
-
 /*Reponsive*/
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1050px){
     
 }
 
