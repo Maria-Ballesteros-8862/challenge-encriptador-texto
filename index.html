@@ -2,39 +2,47 @@
 <html lang="es">
 
 <head>
-    <meta charset="UFT-8">
-    <meta http-equiv="X-UA-Com`patible" content="IE=edge">
-    <meta name="viewport" ccontent="witdh=device-width, initial-scale=1">
+    <meta charset="UFT-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="witdh=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="./assets/img/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
 
     <title>Encriptador de Texto</title>
 </head>
-<body>
-    <header class="logo" src="assets/img/Logo.png" alt="logo de Alura"></header>
-    <div>
-    <!--Contenedor que es en la parte de encriptar-->
-        <div class="encriptar"> 
-    <!--Test area: donde se va ingresar el texto-->
-            <textarea name="texto" class="texto" clid="texto" cols="30" rows="10" placeholder="Ingresa texto aqui"></textarea>
-        <div class="terminos">
-            <img src="assets/img/exclamation-circle.png" alt="exclamacion">
-            <p>Solo letras minúsculas y sin acento</p>
-        </div>
-        </div>
-        <div class="button">
-            <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
-            <input type="button" class="btn-desencriptar" value="Desencriptar" onclick="desencriptar()"/>
-        </div>
 
-        <div class="encriptado">
-            <img src="assets/img/dibujo.png" alt="muñeco" id="Dibujo">
-            <div class="mensaje-encriptado" id="mensaje">
-                <h2 id="titulo-mensaje">Ningún Mensaje se Encontro</h2>
-                <p>Ingresa el texto que deseas encriptar o desencriptar</p>
-                <!-- <textarea name="mensaje" id="mensaje" cols="30" rows="20" class="Mensaje"></textarea> -->
+<body>
+    <main>
+        <header>
+            <img src="assets/img/logo.svg"></img>
+        </header>
+        <section>
+            <!--Test area: donde se va ingresar el texto-->
+                <textarea name="texto" class="texto" clid="texto" cols="30" rows="10"placeholder="Ingresa texto aqui"></textarea>
+            <div class="terminos">
+                <img src="assets/img/exclamation-circle.png" alt="exclamacion">
+                <p>Solo letras minúsculas y sin acento</p>
             </div>
-            <script src="JS/index.js"> </script>
+            <div class="button">
+                <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+                <input type="button" class="btn-desencriptar" value="Desencriptar" onclick="desencriptar()" />
+            <section>
+            <div class="encriptado">
+                <img src="assets/img/dibujo.png" alt="muñeco" id="Dibujo">
+                <div class="mensaje-encriptado" id="mensaje">
+                     <h2 id="titulo-mensaje">Ningún Mensaje se Encontro</h2>
+                    <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+             <!-- <textarea name="mensaje" id="mensaje" cols="20" rows="10" class="Mensaje"></textarea>
+             <button class="Copiar">Copiar</button> -->
+                </div>
             </div>
-        </div>
-    </body>
+            </section> 
+        </section>
+        <script src="JS/index.js"> </script>
+    </main>
+</body>
+
 </html>
