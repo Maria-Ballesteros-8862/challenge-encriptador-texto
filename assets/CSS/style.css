@@ -1,13 +1,14 @@
-*{
-    background-color: #f3f5fc;
-    line-height: 150%;
+* {
+    margin: 0%;
+    padding: 0%;
+    background: #f3f5fc
 }
 
-.main{
-    display: block;
+.container {
     position: relative;
     width: 100vw;
     height: 100vw;
+    background: #f3f5fc;
 }
 
 .texto {
@@ -21,37 +22,38 @@
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
+    line-height: 150%;
     background-color: #f3f5fc;
 }
 
-.texto::placeholder{
-    color:#0A3871;
+.texto::placeholder {
+    color: #0A3871;
 }
 
 .texto:focus,
-.texto:active{
+.texto:active {
     border: none;
     outline: none;
 }
 
-.terminos{
+.terminos {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding: 10px;
     gap: 8px;
     position: absolute;
     width: 80%;
     left: 12%;
-    top:78%;
+    top: 78%;
 }
 
-.terminos p{
+.terminos p {
     font-family: 'Intel';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 10%;
+    line-height: 150%;
     color: #495057;
     opacity: 0.8;
     flex: none;
@@ -60,9 +62,9 @@
 
 }
 
-
-.button{
+.button {
     display: flex;
+    flex: none;
     flex-direction: row;
     align-items: flex-start;
     padding: 1% 0;
@@ -70,34 +72,32 @@
     width: 80%;
     left: 12%;
     top: 82%;
+    gap: 8px;
 }
 
-.btn-encriptar{
-    display: flex;
+.btn-encriptar {
     align-items: center;
     justify-content: center;
     padding: 2%;
-    margin: 1px;
     gap: 8px;
     width: 25%;
     background-color: #0A3871;
     border-radius: 24px;
-    font-family:"Inter";
+    font-family: "Inter";
     font-size: 18px;
     line-height: 19px;
-    text-align:center;
+    text-align: center;
     color: #fff;
 }
 
-.btn-desencriptar{
+.btn-desencriptar {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
     padding: 2%;
-    margin: 2px;
-    gap: 8%;
+    gap: 10%;
     width: 25%;
     background: #D8DFE8;
     border: 1px solid #0A3871;
@@ -110,54 +110,97 @@
     color: #0A3871;
 }
 
-
-.btn-encriptar:hover, .btn-desencriptar:hover{
+.btn-encriptar:hover,
+.btn-desencriptar:hover,
+.btn-copiar {
     margin: 0.3%;
     width: 24.5%;
     padding: 1.8%;
 }
 
-.encriptado{
+.encriptado {
     display: flex;
-    align-items: last baseline;
-    justify-content:center;
+    justify-content: center;
+    position: absolute;
     line-height: 150%;
     width: 400px;
-    height: 536px;
-    left: 0vw;
+    height: 994px;
+    left: 62%;
+    top: 5%;
     background: #fff;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
+    box-sizing: border-box;
 }
 
-.encriptado img{
+.encriptado img {
     position: absolute;
     width: 336px;
     height: 304px;
+    background-color: #fff;
     flex-shrink: 0;
-    left: 55%;
-    top: 15%;
+    left: 11%;
+    top: 24%;
+    border: none;
 }
 
-.mensaje-encriptado{
+.mensaje-encriptado {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: absolute;
+    background-color: #fff;
     padding: 1%;
-    gap: 16px;
-    top: 58%;
-    left: 18%;
+    gap: 12px;
+    top: 65%;
+    width: 98%;
     text-align: center;
+    outline: none;
 }
 
-.mensaje-encriptado h2{
+.mensaje-encriptado h2 {
     width: 60%;
+    background-color: #fff;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
     text-align: center;
-    color: #343a40;
+    font-weight: bold;
+    color: #343A40;
+}
+
+.mensaje-encriptado p {
+    background-color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    font-weight: bold;
+}
+
+.btn-copiar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 5%;
+    padding: 4%;
+    left: 18%;
+    margin-top: 192%;
+    position: absolute;
+    width: 273px;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
