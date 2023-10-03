@@ -112,7 +112,7 @@
 
 .btn-encriptar:hover,
 .btn-desencriptar:hover,
-.btn-copiar {
+.btn-copiar:hover {
     margin: 0.3%;
     width: 24.5%;
     padding: 1.8%;
@@ -203,4 +203,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.Mensaje{
+    background-color: #fff;
 }
