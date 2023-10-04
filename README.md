@@ -7,3 +7,7 @@
 </p>
 
 <p>Proyecto desarrollado con JavaScript, HTML y CSS, es en encriptar y desencriptar un texto te permite ingresarlo, para que se realice se selecciona el botón de encriptado o desencriptado para asi obtener el resultado y copiarlo.</p>
+
+<p aligen="center">
+     <img width"200" heigth="100" src="https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F10224%2F1671210503Prancheta_3.png?utm_campaign=alura_latam_-_challenge_email_projeto_1_esp&utm_medium=email&utm_source=RD+Station">
+</p>
