@@ -9,6 +9,8 @@
 <p>Proyecto desarrollado con JavaScript, HTML y CSS, es en encriptar y desencriptar un texto te permite ingresarlo, para que se realice se selecciona el botón de encriptado o desencriptado para asi obtener el resultado y copiarlo.</p>
 
 
+<h3>Insignia del proyecto</h3>
+
 <p aligen="center">
      <img width="200" heigth="100" src="./assets/img/Insignia.png"/>
 </p>
